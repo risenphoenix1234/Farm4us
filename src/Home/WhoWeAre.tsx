@@ -58,6 +58,17 @@ export default function WhoWeAre() {
         <button className="mt-6 bg-green-600 text-white font-bold py-3 px-6 rounded-md shadow-md hover:bg-green-700 transition">
           JOIN THE MOVEMENT
         </button>
+
+        {/* Video */}
+        <div className="mt-6 w-full aspect-video">
+          <iframe
+            className="w-full h-full rounded-lg shadow-lg"
+            src="https://www.youtube.com/embed/x42-9SCXsGw"
+            title="Farm4Us Pitch Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
